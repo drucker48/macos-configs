@@ -60,7 +60,7 @@ sleep 10
 killall cfprefsd Dock
 
 # Set Desktop background 
-wget -q https://storage.googleapis.com/ai-images/aurora_desk.png -O /Users/Shared/aurora_desk.png
+wget -q https://storage.googleapis.com/ai-images/company_desk.png -O /Users/Shared/company_desk.png
 
 sudo -u "$CURRENTUSER" osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/Shared/aurora_desk.png"'
 
